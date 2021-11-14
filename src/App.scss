@@ -7,14 +7,11 @@
     padding: 0 30px;
 
     ul {
-      padding: 0;
-      margin: 0;
       display: flex;
       flex-direction: row;
     }
 
     ul li {
-      list-style: none;
       padding: 20px;
 
       > a {
@@ -71,5 +68,9 @@
         }
       }
     }
+  }
+
+  footer {
+    margin-top: 30px;
   }
 }

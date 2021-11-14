@@ -1,7 +1,7 @@
 import { Switch, Route, NavLink } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
-import Posts from './components/Posts';
+import Community from './components/Community';
 
 import './App.scss';
 
@@ -21,8 +21,8 @@ function App() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/posts" activeClassName="active">
-              Posts
+            <NavLink to="/community" activeClassName="active">
+              Community
             </NavLink>
           </li>
         </ul>
@@ -31,7 +31,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/posts" component={Posts} />
+          <Route path="/community" component={Community} />
         </Switch>
       </main>
     </div>
